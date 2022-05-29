@@ -2,7 +2,7 @@ import { Component, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'jenkinsio-footer',
-  styleUrl: 'jenkinsio-footer.css',
+  styleUrl: 'jenkinsio-footer.scss',
   shadow: true,
 })
 export class JenkinsioFooter {
@@ -21,8 +21,8 @@ export class JenkinsioFooter {
       <footer id="footer">
         <div class="container">
           <div class="row">
-            {this.netlifyHtml()}
             <div class="col-md-4">
+              {this.netlifyHtml()}
               <div class="license-box">
                 <div id="creativecommons">
                   <a href="https://creativecommons.org/licenses/by-sa/4.0/">
