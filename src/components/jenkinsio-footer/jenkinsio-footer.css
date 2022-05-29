@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.links {
+  padding: 0;
+}
+.col-md-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+:host {
+  background: #1077ad;
+  color: #fff;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+.license-box {
+  float: left;
+  font-size: .85rem;
+  padding-left: 0
+}
+
+a {
+  color: #fff;
+}
+
+.links ul li {
+  text-align: left;
+}
+
+.area {
+  display: inline-block;
+  vertical-align: top;
+  font-size: .85rem
+}
+
+ul, li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links  h5 {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-align: left;
+}
+
